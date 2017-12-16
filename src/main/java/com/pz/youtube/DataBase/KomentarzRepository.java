@@ -1,4 +1,7 @@
 package com.pz.youtube.DataBase;
 
-public interface KomentarzRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface KomentarzRepository extends CrudRepository<Komentarz, Long> {
+
 }

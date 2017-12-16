@@ -29,6 +29,6 @@ public class Komentarz {
 
     }
 
-    protected Komentarz(){};
+    //protected Komentarz(){};
        }
 

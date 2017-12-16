@@ -1,4 +1,7 @@
 package com.pz.youtube.DataBase;
 
-public interface ZdjeciaKategorieRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface ZdjeciaKategorieRepository extends CrudRepository<ZdjeciaKategorie, Long> {
+
 }

@@ -31,7 +31,7 @@ public class Uzytkownik{
         this.nazwaUzytkownika = nazwaUzytkownika;
         this.haslo = haslo;
     }
-    protected Uzytkownik(){};
+   // protected Uzytkownik(){};
 
 
 

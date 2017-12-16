@@ -23,18 +23,18 @@ import java.util.Date;
 
         private int _id;
         private String nazwa;
-        private Date data;
+        private String data;
         private String opis;
         private int _idUzytkownika;
 
-      public Zdjecia( String nazwa, Date data, String opis, int _idUzytkownika){
+      public Zdjecia( String nazwa, String data, String opis, int _idUzytkownika){
           this.nazwa = nazwa;
           this.data = data;
           this.opis = opis;
           this._idUzytkownika = _idUzytkownika;
       }
 
-    protected Zdjecia(){};
+    //protected Zdjecia(){};
 
     }
 
